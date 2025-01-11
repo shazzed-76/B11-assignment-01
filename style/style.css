@@ -184,6 +184,10 @@ main section {
 
 
 /* vision section style */
+.vision-section {
+    margin-bottom: 30px;
+}
+
 .vision-card-container {
     display: flex;
     justify-content: center;
@@ -194,4 +198,18 @@ main section {
 .vision-child-container {
     border-radius: 16px;
     padding: 32px;
+}
+
+
+/* quote section */
+.quote-section {
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 3.5% 3%;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0, 0.15);
+    padding: 40px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.25);
+
 }
