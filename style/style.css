@@ -42,7 +42,14 @@ body {
         "wdth" 100;
 }
 
+
+
 /* navbar style */
+
+header {
+    margin-bottom: 150px;
+}
+
 .main-nav {
     display: flex;
     justify-content: space-between;
@@ -100,4 +107,43 @@ body {
     font-size: 45px;
     font-weight: 700;
 
+}
+
+/* pillar section style */
+
+main section {
+    margin-bottom: 150px;
+}
+
+.pillar-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pillar-child-card-container {
+    background-color: #ffffff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.card-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.pillar-section-title {
+    font-weight: 700;
+    color: #0E0E0E;
+    font-size: 36px;
 }
