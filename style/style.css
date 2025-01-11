@@ -90,6 +90,19 @@ input[type="number"]::placeholder {
 }
 
 
+/* hover effect */
+.child-donate-option-box:hover {
+    background-color: #636e72;
+    color: #ffffff;
+}
+
+.primary-btn:hover {
+    background-color: #636e72;
+}
+
+.subscribe-btn:hover {
+    background-color: #636e72;
+}
 
 /* navbar style */
 
