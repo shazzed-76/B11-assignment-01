@@ -18,6 +18,10 @@ body {
     margin-bottom: 24px;
 }
 
+.centered-text {
+    text-align: center;
+}
+
 .primary-btn {
     font-size: 18px;
     font-weight: 600;
@@ -37,6 +41,10 @@ body {
     border-radius: 8px;
     border: none;
     margin-top: 50px;
+}
+
+.selected-box {
+    background-color: rgba(198, 228, 214, 1) !important;
 }
 
 .second-primary-btn-first-child-color {
@@ -249,4 +257,43 @@ main section {
 .al-jazeera-logo {
     width: 100px;
     margin-bottom: 15px;
+}
+
+
+/* Donate section */
+.donate-section {
+    text-align: center;
+    padding: 0 100px;
+}
+
+.donate-option-box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+
+}
+
+.child-donate-option-box {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    outline: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.input-container {
+    width: 100%;
+    margin: 24px auto;
+}
+
+.input-container input {
+    width: 80%;
+    padding: 20px 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    outline: none;
+    background-color: #ffffff;
+
 }
